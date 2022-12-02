@@ -16,8 +16,8 @@
 	 		변수이름 = 데이터; --> 변수의 초기화
 	*/
 	var num =0; // num 이라는 변수를 만들고 0으로 선언한게 됨. --> number 타입으로 결정이 됨
-	num = 'zero'; // --> string 타입으로 타입이 변형
-	document.write('head 태그 내 실행 순서 : + num + <br>');
+	num = 'zero'; // --> string 타입으로 타입이 변형 문자열 타입임.
+	document.write('head 태그 내 실행 순서 : ' + num + '<br>');
 	/* 
 		+ : 이 경우는 하나의 문자열을 만드는 결합연산자
 		
@@ -26,6 +26,12 @@
 			
 			결합 순서는 왼쪽에서 오른쪽으로 진행함
 	*/
+	
+	/* 예를 들어 밑에 처럼 var str = '100';를 넣고 var no = 10;를 넣었을때 밑에처럼 str+no 은 숫자개념이 아닌
+	문자개념으로 붙히겠다는 말임ㅋㅋㅋㅋㅋㅋㅋ	str + no; ==> '10010<br>' */
+	var str = '100';		
+	var no = 10;
+	str + no; ==> '10010<br>'
 </script>
 <script type="text/javascript">
 	var num=1;
